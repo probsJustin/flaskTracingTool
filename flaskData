@@ -1,0 +1,962 @@
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 200-640-690
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 13:01:48] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 200-640-690
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\Justin.Hagerty\\Desktop\\Repos\\flaskTracingTool\\flaskApp.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 200-640-690
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 13:03:59] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 13:04:07] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 13:04:08] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 13:04:09] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 13:04:24] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 13:04:25] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 13:04:31] "[33mGET /anotherTest HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 13:04:33] "[33mGET /apitTest_GET HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 13:04:54] "[35m[1mGET /apiTest_GET HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 13:04:54] "[37mGET /apiTest_GET?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 13:04:54] "[37mGET /apiTest_GET?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 13:04:54] "[37mGET /apiTest_GET?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 13:04:54] "[37mGET /apiTest_GET?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 13:04:54] "[37mGET /apiTest_GET?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 13:04:54] "[37mGET /apiTest_GET?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Justin.Hagerty\\Desktop\\Repos\\flaskTracingTool\\flaskApp.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 200-640-690
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 13:05:22] "[35m[1mGET /apiTest_GET HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 13:05:22] "[37mGET /apiTest_GET?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 13:05:22] "[37mGET /apiTest_GET?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 13:05:22] "[37mGET /apiTest_GET?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 13:05:22] "[37mGET /apiTest_GET?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 13:05:22] "[37mGET /apiTest_GET?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 13:05:22] "[37mGET /apiTest_GET?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 13:05:23] "[35m[1mGET /apiTest_GET HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 13:05:23] "[37mGET /apiTest_GET?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 13:05:23] "[37mGET /apiTest_GET?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 13:05:23] "[37mGET /apiTest_GET?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 13:05:23] "[37mGET /apiTest_GET?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 13:05:23] "[37mGET /apiTest_GET?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 13:05:23] "[37mGET /apiTest_GET?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 13:05:24] "[35m[1mGET /apiTest_GET HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 13:05:24] "[37mGET /apiTest_GET?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 13:05:24] "[37mGET /apiTest_GET?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 13:05:24] "[37mGET /apiTest_GET?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 13:05:24] "[37mGET /apiTest_GET?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 13:05:24] "[37mGET /apiTest_GET?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 13:05:24] "[37mGET /apiTest_GET?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Justin.Hagerty\\Desktop\\Repos\\flaskTracingTool\\flaskApp.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 200-640-690
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 13:07:28] "[37mGET /apiTest_GET HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Justin.Hagerty\\Desktop\\Repos\\flaskTracingTool\\flaskApp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 200-640-690
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 13:08:26] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 13:08:27] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 13:08:30] "[37mGET /apiTest_GET HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 13:08:30] "[37mGET /apiTest_GET HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 13:08:31] "[37mGET /apiTest_GET HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 13:08:31] "[37mGET /apiTest_GET HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Justin.Hagerty\\Desktop\\Repos\\flaskTracingTool\\flaskApp.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 200-640-690
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 13:09:43] "[37mGET /apiTest_GET HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 13:09:58] "[37mGET /apiTest_GET HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 13:10:08] "[37mGET /apiTest_GET?test&=yes HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Justin.Hagerty\\Desktop\\Repos\\flaskTracingTool\\flaskApp.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 200-640-690
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 13:11:00] "[37mGET /apiTest_GET?test&=yes HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 13:11:33] "[37mGET /apiTest_GET?test=true&testKey=testTrue HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 13:12:19] "[31m[1mPOST /apiTest_GET?test=true&testKey=testTrue HTTP/1.1[0m" 405 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 13:12:25] "[31m[1mPOST /apiTest_GET?test=true&testKey=testTrue HTTP/1.1[0m" 405 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Justin.Hagerty\\Desktop\\Repos\\flaskTracingTool\\flaskApp.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 200-640-690
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 13:13:30] "[37mPOST /apiTest_GET?test=true&testKey=testTrue HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Justin.Hagerty\\Desktop\\Repos\\flaskTracingTool\\flaskApp.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 200-640-690
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 13:16:04] "[37mPOST /apiTest_GET?test=true&testKey=testTrue&debug=True HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Justin.Hagerty\\Desktop\\Repos\\flaskTracingTool\\flaskApp.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 200-640-690
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 13:16:30] "[37mPOST /apiTest_GET?test=true&testKey=testTrue&debug=True HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 200-640-690
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\Justin.Hagerty\\Desktop\\Repos\\flaskTracingTool\\flaskApp.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 200-640-690
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 13:18:28] "[37mPOST /apiTest_GET?test=true&testKey=testTrue&debug=True HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Justin.Hagerty\\Desktop\\Repos\\flaskTracingTool\\flaskApp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 200-640-690
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\Justin.Hagerty\\Desktop\\Repos\\flaskTracingTool\\flaskApp.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 200-640-690
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 13:23:24] "[35m[1mPOST /apiTest_GET?test=true&testKey=testTrue&debug=True HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Justin.Hagerty\\Desktop\\Repos\\flaskTracingTool\\flaskApp.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 200-640-690
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 13:23:55] "[37mPOST /apiTest_GET?test=true&testKey=testTrue&debug=True HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Justin.Hagerty\\Desktop\\Repos\\flaskTracingTool\\flaskApp.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 200-640-690
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 13:24:20] "[37mPOST /apiTest_GET?test=true&testKey=testTrue&debug=True HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Justin.Hagerty\\Desktop\\Repos\\flaskTracingTool\\flaskApp.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 200-640-690
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 13:27:51] "[35m[1mPOST /apiTest_GET?test=true&testKey=testTrue&debug=True HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Justin.Hagerty\\Desktop\\Repos\\flaskTracingTool\\flaskApp.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 200-640-690
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 13:28:18] "[37mPOST /apiTest_GET?test=true&testKey=testTrue&debug=True HTTP/1.1[0m" 200 -
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 200-640-690
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 13:28:23] "[37mPOST /apiTest_GET?test=true&testKey=testTrue&debug=True HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 200-640-690
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 13:29:02] "[37mPOST /apiTest_GET?test=true&testKey=testTrue&debug=True HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Justin.Hagerty\\Desktop\\Repos\\flaskTracingTool\\flaskApp.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 200-640-690
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 13:29:28] "[37mPOST /apiTest_GET?test=true&testKey=testTrue&debug=True HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 13:29:35] "[37mPOST /apiTest_GET?test=true&testKey=testTrue&debug=True HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Justin.Hagerty\\Desktop\\Repos\\flaskTracingTool\\flaskApp.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 200-640-690
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 13:30:42] "[37mPOST /apiTest_GET?test=true&testKey=testTrue&debug=True HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Justin.Hagerty\\Desktop\\Repos\\flaskTracingTool\\flaskApp.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 200-640-690
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 13:31:08] "[37mPOST /apiTest_GET?test=true&testKey=testTrue&debug=True HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Justin.Hagerty\\Desktop\\Repos\\flaskTracingTool\\flaskApp.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 200-640-690
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 13:31:39] "[37mPOST /apiTest_GET?test=true&testKey=testTrue&debug=True HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Justin.Hagerty\\Desktop\\Repos\\flaskTracingTool\\flaskApp.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 200-640-690
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 13:32:27] "[37mPOST /apiTest_GET?test=true&testKey=testTrue&debug=True HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 13:35:08] "[37mPOST /apiTest_GET?test=true&testKey=testTrue&debug=True HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 200-640-690
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 13:36:19] "[37mPOST /apiTest_GET?test=true&testKey=testTrue&debug=True HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Justin.Hagerty\\Desktop\\Repos\\flaskTracingTool\\flaskApp.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 200-640-690
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 14:40:04] "[37mPOST /apiTest_GET?test=true&testKey=testTrue&debug=True HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Justin.Hagerty\\Desktop\\Repos\\flaskTracingTool\\flaskApp.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 200-640-690
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 14:44:26] "[37mPOST /apiTest_GET?test=true&testKey=testTrue&debug=True HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Justin.Hagerty\\Desktop\\Repos\\flaskTracingTool\\flaskApp.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 200-640-690
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 14:44:50] "[37mPOST /apiTest_GET?test=true&testKey=testTrue&debug=True HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Justin.Hagerty\\Desktop\\Repos\\flaskTracingTool\\flaskApp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 200-640-690
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 15:17:03] "[37mPOST /apiTest_GET?test=true&testKey=testTrue&debug=True HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Justin.Hagerty\\Desktop\\Repos\\flaskTracingTool\\flaskApp.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 200-640-690
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 15:20:59] "[37mPOST /apiTest_GET?test=true&testKey=testTrue&debug=True HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 200-640-690
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 16:11:35] "[37mPOST /apiTest_GET?test=true&testKey=testTrue HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 16:11:37] "[37mPOST /apiTest_GET?test=true&testKey=testTrue HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 16:11:58] "[37mPOST /apiTest_GET?test=true&testKey=testTrue HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 16:11:59] "[37mPOST /apiTest_GET?test=true&testKey=testTrue HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Justin.Hagerty\\Desktop\\Repos\\flaskTracingTool\\flaskApp.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 200-640-690
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\Justin.Hagerty\\Desktop\\Repos\\flaskTracingTool\\flaskApp.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 200-640-690
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 16:13:43] "[37mPOST /apiTest_GET?test=true&testKey=testTrue HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 16:13:46] "[37mPOST /apiTest_GET?test=true&testKey=testTrue HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 16:13:50] "[37mPOST /apiTest_GET?test=true&testKey=testTrue&debug=True HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 16:14:04] "[37mPOST /apiTest_GET?test=true&testKey=testTrue&debug=True&url_passthrough=test HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Justin.Hagerty\\Desktop\\Repos\\flaskTracingTool\\flaskApp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 200-640-690
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\Justin.Hagerty\\Desktop\\Repos\\flaskTracingTool\\flaskApp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 200-640-690
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 16:26:58] "[35m[1mPOST /apiTest_GET?test=true&testKey=testTrue&debug=True&url_passthrough=http://www.google.com HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 16:27:55] "[35m[1mPOST /apiTest_GET?test=true&testKey=testTrue&debug=True&url_passthrough=http://www.google.com HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Justin.Hagerty\\Desktop\\Repos\\flaskTracingTool\\flaskApp.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 200-640-690
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 16:28:42] "[35m[1mPOST /apiTest_GET?test=true&testKey=testTrue&debug=True&url_passthrough=http://www.google.com HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Justin.Hagerty\\Desktop\\Repos\\flaskTracingTool\\flaskApp.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 200-640-690
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 6142
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 5695
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 16:29:08] "[37mPOST /apiTest_GET?test=true&testKey=testTrue&debug=True&url_passthrough=http://www.google.com HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Justin.Hagerty\\Desktop\\Repos\\flaskTracingTool\\flaskApp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 200-640-690
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\Justin.Hagerty\\Desktop\\Repos\\flaskTracingTool\\flaskApp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 200-640-690
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 200-640-690
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 5689
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 5719
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 16:29:55] "[37mPOST /apiTest_GET?test=true&testKey=testTrue&debug=True&url_passthrough=http://www.google.com HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 5729
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 5699
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 16:29:56] "[37mPOST /apiTest_GET?test=true&testKey=testTrue&debug=True&url_passthrough=http://www.google.com HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 5732
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 5743
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 16:29:58] "[37mPOST /apiTest_GET?test=true&testKey=testTrue&debug=True&url_passthrough=http://www.google.com HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 5709
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 5716
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 16:29:59] "[37mPOST /apiTest_GET?test=true&testKey=testTrue&debug=True&url_passthrough=http://www.google.com HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 5681
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 5727
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 16:30:00] "[37mPOST /apiTest_GET?test=true&testKey=testTrue&debug=True&url_passthrough=http://www.google.com HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 5718
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 5733
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 16:30:01] "[37mPOST /apiTest_GET?test=true&testKey=testTrue&debug=True&url_passthrough=http://www.google.com HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Justin.Hagerty\\Desktop\\Repos\\flaskTracingTool\\flaskApp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 200-640-690
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 5695
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 5687
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 16:42:34] "[37mPOST /apiTest_GET?test=true&testKey=testTrue&debug=1&url_passthrough=http://www.google.com HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 5696
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 5691
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 16:42:40] "[37mPOST /apiTest_GET?test=true&testKey=testTrue&debug=0&url_passthrough=http://www.google.com HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 16:42:52] "[37mPOST /apiTest_GET?test=true&testKey=testTrue&debug=&url_passthrough=http://www.google.com HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 5715
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 6106
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 16:42:56] "[37mPOST /apiTest_GET?test=true&testKey=testTrue&debug=0&url_passthrough=http://www.google.com HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Justin.Hagerty\\Desktop\\Repos\\flaskTracingTool\\flaskApp.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 200-640-690
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 16:45:02] "[37mPOST /apiTest_GET?test=true&testKey=testTrue&debug=0&url_passthrough=http://www.google.com HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 16:45:09] "[37mPOST /apiTest_GET?test=true&testKey=testTrue&debug=1&url_passthrough=http://www.google.com HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Justin.Hagerty\\Desktop\\Repos\\flaskTracingTool\\flaskApp.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 200-640-690
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 5712
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 5736
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 16:45:30] "[37mPOST /apiTest_GET?test=true&testKey=testTrue&debug=1&url_passthrough=http://www.google.com HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 16:45:37] "[37mPOST /apiTest_GET?test=true&testKey=testTrue&debug=True&url_passthrough=http://www.google.com HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Justin.Hagerty\\Desktop\\Repos\\flaskTracingTool\\flaskApp.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 200-640-690
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 5735
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 5719
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 16:45:53] "[37mPOST /apiTest_GET?test=true&testKey=testTrue&debug=True&url_passthrough=http://www.google.com HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 16:45:59] "[37mPOST /apiTest_GET?test=true&testKey=testTrue&debug=test&url_passthrough=http://www.google.com HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 16:46:04] "[37mPOST /apiTest_GET?test=true&testKey=testTrue&debug=0&url_passthrough=http://www.google.com HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 5725
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 5685
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 16:46:09] "[37mPOST /apiTest_GET?test=true&testKey=testTrue&debug=1&url_passthrough=http://www.google.com HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 200-640-690
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.facebook.com:80
+DEBUG:urllib3.connectionpool:http://www.facebook.com:80 "GET / HTTP/1.1" 302 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.facebook.com:443
+DEBUG:urllib3.connectionpool:https://www.facebook.com:443 "GET / HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.facebook.com:80
+DEBUG:urllib3.connectionpool:http://www.facebook.com:80 "GET / HTTP/1.1" 302 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.facebook.com:443
+DEBUG:urllib3.connectionpool:https://www.facebook.com:443 "GET / HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 16:46:43] "[37mPOST /apiTest_GET?test=true&testKey=testTrue&debug=1&url_passthrough=http://www.facebook.com HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.faceboosk.com:80
+DEBUG:urllib3.connectionpool:http://www.faceboosk.com:80 "GET / HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.faceboosk.com:80
+DEBUG:urllib3.connectionpool:http://www.faceboosk.com:80 "GET / HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 16:46:49] "[37mPOST /apiTest_GET?test=true&testKey=testTrue&debug=1&url_passthrough=http://www.faceboosk.com HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Justin.Hagerty\\Desktop\\Repos\\flaskTracingTool\\flaskApp.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 200-640-690
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 16:50:54] "[37mPOST /apiTest_FAILURE HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 200-640-690
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 16:51:08] "[37mPOST /apiTest_FAILURE HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 16:51:09] "[37mPOST /apiTest_FAILURE HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 16:51:18] "[35m[1mPOST /apiTest_FAILURE?debug=True HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Justin.Hagerty\\Desktop\\Repos\\flaskTracingTool\\flaskApp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 200-640-690
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 200-640-690
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 16:52:58] "[35m[1mPOST /apiTest_FAILURE?debug=True HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 200-640-690
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 16:53:41] "[35m[1mPOST /apiTest_GET?debug=True HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 16:53:43] "[35m[1mPOST /apiTest_GET?debug=True HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Justin.Hagerty\\Desktop\\Repos\\flaskTracingTool\\flaskApp.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 200-640-690
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 16:54:13] "[37mPOST /apiTest_GET?debug=True HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 16:54:20] "[35m[1mPOST /apiTest_FAILURE?debug=True HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Justin.Hagerty\\Desktop\\Repos\\flaskTracingTool\\flaskApp.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 200-640-690
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 16:55:09] "[35m[1mPOST /apiTest_FAILURE?debug=True HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Justin.Hagerty\\Desktop\\Repos\\flaskTracingTool\\flaskApp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 200-640-690
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\Justin.Hagerty\\Desktop\\Repos\\flaskTracingTool\\flaskApp.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 200-640-690
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 16:56:28] "[37mPOST /apiTest_FAILURE?debug=True HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Justin.Hagerty\\Desktop\\Repos\\flaskTracingTool\\flaskApp.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 200-640-690
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 16:57:57] "[35m[1mPOST /apiTest_FAILURE?debug=True HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Justin.Hagerty\\Desktop\\Repos\\flaskTracingTool\\flaskApp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 200-640-690
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 200-640-690
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 16:58:34] "[35m[1mPOST /apiTest_FAILURE?debug=True HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 16:59:05] "[35m[1mPOST /apiTest_FAILURE?debug=True HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Justin.Hagerty\\Desktop\\Repos\\flaskTracingTool\\flaskApp.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 200-640-690
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 16:59:36] "[35m[1mPOST /apiTest_FAILURE?debug=True HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 16:59:43] "[37mPOST /apiTest_SUCCESS?debug=True HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 16:59:48] "[31m[1mDELETE /apiTest_SUCCESS?debug=True HTTP/1.1[0m" 405 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 16:59:53] "[33mDELETE /apiTest_geT?debug=True HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 16:59:56] "[37mDELETE /apiTest_GET?debug=True HTTP/1.1[0m" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): g.com:80
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): g.com:80
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 17:00:16] "[35m[1mDELETE /apiTest_GET?debug=True&url_passthrough=http://g.com HTTP/1.1[0m" 500 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): google.com:80
+DEBUG:urllib3.connectionpool:http://google.com:80 "GET / HTTP/1.1" 301 219
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 5706
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): google.com:80
+DEBUG:urllib3.connectionpool:http://google.com:80 "GET / HTTP/1.1" 301 219
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 5715
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 17:00:31] "[37mDELETE /apiTest_GET?debug=True&url_passthrough=http://google.com HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Justin.Hagerty\\Desktop\\Repos\\flaskTracingTool\\flaskApp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 200-640-690
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\Justin.Hagerty\\Desktop\\Repos\\flaskTracingTool\\flaskApp.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 200-640-690
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 17:09:01] "[37mDELETE /apiTest_responseCodeCheck?responseCode&debug=True HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 17:09:11] "[37mDELETE /apiTest_responseCodeCheck?responseCode&debug=True HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 17:10:11] "[37mPOST /apiTest_responseCodeCheck?responseCode&debug=True HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 17:10:17] "[37mPOST /apiTest_responseCodeCheck?responseCode&debug=True HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Justin.Hagerty\\Desktop\\Repos\\flaskTracingTool\\flaskApp.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 200-640-690
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 17:10:36] "[37mPOST /apiTest_responseCodeCheck?responseCode&debug=True HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 17:10:39] "[37mPOST /apiTest_responseCodeCheck?responseCode&debug=True HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 17:10:50] "[37mPOST /apiTest_responseCodeCheck?responseCode&debug=True HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 17:11:12] "[37mPOST /apiTest_responseCodeCheck?responseCode&debug=True HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Justin.Hagerty\\Desktop\\Repos\\flaskTracingTool\\flaskApp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 200-640-690
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 17:11:56] "[37mPOST /apiTest_responseCodeCheck?test_responseCode&debug=True HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Justin.Hagerty\\Desktop\\Repos\\flaskTracingTool\\flaskApp.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 200-640-690
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 17:12:46] "[37mPOST /apiTest_responseCodeCheck?test_responseCode&debug=True HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 17:13:07] "[37mPOST /apiTest_responseCodeCheck?test_responseCode=testthings&debug=True HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 17:13:22] "[37mPOST /apiTest_responseCodeCheck?test_responseCode=testthings&debug=True HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 17:13:31] "[37mPOST /apiTest_responseCodeCheck?test_responseCode=404&debug=True HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Justin.Hagerty\\Desktop\\Repos\\flaskTracingTool\\flaskApp.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 200-640-690
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 17:13:54] "[37mPOST /apiTest_responseCodeCheck?test_responseCode=404&debug=True HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Justin.Hagerty\\Desktop\\Repos\\flaskTracingTool\\flaskApp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 200-640-690
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 17:14:24] "[37mPOST /apiTest_responseCodeCheck?responseCode=404&debug=True HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Justin.Hagerty\\Desktop\\Repos\\flaskTracingTool\\flaskApp.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 200-640-690
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 17:14:43] "[37mPOST /apiTest_responseCodeCheck?responseCode=404&debug=True HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 17:14:46] "[37mPOST /apiTest_responseCodeCheck?responseCode=404&debug=True HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 17:14:59] "[37mPOST /apiTest_responseCodeCheck?responseCode=500&debug=True HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Justin.Hagerty\\Desktop\\Repos\\flaskTracingTool\\flaskApp.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 200-640-690
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 17:15:15] "[37mPOST /apiTest_responseCodeCheck?responseCode=500&debug=True HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Justin.Hagerty\\Desktop\\Repos\\flaskTracingTool\\flaskApp.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 200-640-690
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 17:15:32] "[37mPOST /apiTest_responseCodeCheck?responseCode=500&debug=True HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Justin.Hagerty\\Desktop\\Repos\\flaskTracingTool\\flaskApp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 200-640-690
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 200-640-690
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 200-640-690
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 17:16:54] "[35m[1mPOST /apiTest_responseCodeCheck?responseCode=500&debug=True HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Justin.Hagerty\\Desktop\\Repos\\flaskTracingTool\\flaskApp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 200-640-690
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 200-640-690
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 17:17:25] "[35m[1mPOST /apiTest_responseCodeCheck?responseCode=500&debug=True HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Justin.Hagerty\\Desktop\\Repos\\flaskTracingTool\\flaskApp.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 200-640-690
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 17:19:18] "[37mPOST /apiTest_responseCodeCheck?responseCode=500&debug=True HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 17:19:29] "[37mPOST /apiTest_responseCodeCheck?responseCode=404&debug=True HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Justin.Hagerty\\Desktop\\Repos\\flaskTracingTool\\flaskApp.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 200-640-690
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 17:19:56] "[35m[1mPOST /apiTest_responseCodeCheck?responseCode=404&debug=True HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Justin.Hagerty\\Desktop\\Repos\\flaskTracingTool\\flaskApp.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 200-640-690
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 17:20:19] "[33mPOST /apiTest_responseCodeCheck?responseCode=404&debug=True HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 17:20:26] "[35m[1mPOST /apiTest_responseCodeCheck?responseCode=200&debug=True HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Justin.Hagerty\\Desktop\\Repos\\flaskTracingTool\\flaskApp.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 200-640-690
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 17:22:07] "[35m[1mPOST /apiTest_responseCodeCheck?responseCode=200&debug=True HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 200-640-690
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 17:22:25] "[35m[1mPOST /apiTest_responseCodeCheck?responseCode=200&debug=True HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Justin.Hagerty\\Desktop\\Repos\\flaskTracingTool\\flaskApp.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 200-640-690
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 17:22:54] "[35m[1mPOST /apiTest_responseCodeCheck?responseCode=200&debug=True HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Justin.Hagerty\\Desktop\\Repos\\flaskTracingTool\\flaskApp.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 200-640-690
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 17:24:51] "[37mPOST /apiTest_responseCodeCheck?responseCode=200&debug=True HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 17:24:59] "[33mPOST /apiTest_responseCodeCheck?responseCode=404&debug=True HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 17:25:07] "[31m[1mPOST /apiTest_responseCodeCheck?responseCode=403&debug=True HTTP/1.1[0m" 403 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 17:25:44] "[31m[1mPOST /apiTest_responseCodeCheck?responseCode=403&debug=True HTTP/1.1[0m" 403 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Justin.Hagerty\\Desktop\\Repos\\flaskTracingTool\\flaskApp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 200-640-690
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\Justin.Hagerty\\Desktop\\Repos\\flaskTracingTool\\flaskApp.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 200-640-690
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 17:26:25] "[31m[1mPOST /apiTest_responseCodeCheck?responseCode=403&debug=True HTTP/1.1[0m" 403 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 17:26:27] "[31m[1mPOST /apiTest_responseCodeCheck?responseCode=403&debug=True HTTP/1.1[0m" 403 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Justin.Hagerty\\Desktop\\Repos\\flaskTracingTool\\flaskApp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 200-640-690
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\Justin.Hagerty\\Desktop\\Repos\\flaskTracingTool\\flaskApp.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 200-640-690
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 17:31:57] "[31m[1mPOST /apiTest_responseCodeCheck?responseCode=403&debug=True HTTP/1.1[0m" 403 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Justin.Hagerty\\Desktop\\Repos\\flaskTracingTool\\flaskApp.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 200-640-690
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:root:ImmutableMultiDict([('responseCode', '403'), ('debug', 'True')])
+INFO:root:ImmutableMultiDict([('responseCode', '403'), ('debug', 'True')])
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 17:33:54] "[31m[1mPOST /apiTest_responseCodeCheck?responseCode=403&debug=True HTTP/1.1[0m" 403 -
+INFO:root:ImmutableMultiDict([('debug', 'True')])
+INFO:root:ImmutableMultiDict([('debug', 'True')])
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 17:34:01] "[35m[1mPOST /apiTest_responseCodeCheck?debug=True HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Justin.Hagerty\\Desktop\\Repos\\flaskTracingTool\\flaskApp.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 200-640-690
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:root:ImmutableMultiDict([('debug', 'True')])
+INFO:root:ImmutableMultiDict([('debug', 'True')])
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 17:34:57] "[35m[1mPOST /apiTest_responseCodeCheck?debug=True HTTP/1.1[0m" 500 -
+INFO:root:ImmutableMultiDict([('debug', 'True')])
+INFO:root:ImmutableMultiDict([('debug', 'True')])
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 17:35:05] "[35m[1mPOST /apiTest_responseCodeCheck?debug=True HTTP/1.1[0m" 500 -
+INFO:root:ImmutableMultiDict([('debug', 'True')])
+INFO:root:ImmutableMultiDict([('debug', 'True')])
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 17:35:06] "[35m[1mPOST /apiTest_responseCodeCheck?debug=True HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Justin.Hagerty\\Desktop\\Repos\\flaskTracingTool\\flaskApp.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 200-640-690
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:root:ImmutableMultiDict([('debug', 'True')])
+INFO:root:ImmutableMultiDict([('debug', 'True')])
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 17:35:31] "[35m[1mPOST /apiTest_responseCodeCheck?debug=True HTTP/1.1[0m" 500 -
+INFO:root:ImmutableMultiDict([('debug', 'True')])
+INFO:root:ImmutableMultiDict([('debug', 'True')])
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 17:35:34] "[35m[1mPOST /apiTest_responseCodeCheck?debug=True HTTP/1.1[0m" 500 -
+INFO:root:ImmutableMultiDict([])
+INFO:root:ImmutableMultiDict([])
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 17:35:41] "[37mPOST /apiTest_GET HTTP/1.1[0m" 200 -
+INFO:root:ImmutableMultiDict([('debug', '1')])
+INFO:root:ImmutableMultiDict([('debug', '1')])
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 17:35:50] "[37mPOST /apiTest_GET?debug=1 HTTP/1.1[0m" 200 -
+INFO:root:ImmutableMultiDict([('debug', '1'), ('url_passthrough', 'www.google.com')])
+INFO:root:ImmutableMultiDict([('debug', '1'), ('url_passthrough', 'www.google.com')])
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 17:36:36] "[35m[1mPOST /apiTest_GET?debug=1&url_passthrough=www.google.com HTTP/1.1[0m" 500 -
+INFO:root:ImmutableMultiDict([('debug', '1'), ('url_passthrough', 'http://www.google.com')])
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 5690
+INFO:root:ImmutableMultiDict([('debug', '1'), ('url_passthrough', 'http://www.google.com')])
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 5714
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 17:36:50] "[37mPOST /apiTest_GET?debug=1&url_passthrough=http://www.google.com HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Justin.Hagerty\\Desktop\\Repos\\flaskTracingTool\\flaskApp.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 200-640-690
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:root:ImmutableMultiDict([('debug', '1'), ('url_passthrough', 'http://www.google.com')])
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 5706
+INFO:root:ImmutableMultiDict([('debug', '1'), ('url_passthrough', 'http://www.google.com')])
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 5705
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 17:39:12] "[37mPOST /apiTest_GET?debug=1&url_passthrough=http://www.google.com HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Justin.Hagerty\\Desktop\\Repos\\flaskTracingTool\\flaskApp.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 200-640-690
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:root:ImmutableMultiDict([('debug', '1'), ('url_passthrough', 'http://www.google.com')])
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 5726
+INFO:root:ImmutableMultiDict([('debug', '1'), ('url_passthrough', 'http://www.google.com')])
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 5726
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 17:39:33] "[37mPOST /apiTest_GET?debug=1&url_passthrough=http://www.google.com HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Justin.Hagerty\\Desktop\\Repos\\flaskTracingTool\\flaskApp.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 200-640-690
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:root:ImmutableMultiDict([('debug', '1'), ('url_passthrough', 'http://www.google.com')])
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 5694
+INFO:root:ImmutableMultiDict([('debug', '1'), ('url_passthrough', 'http://www.google.com')])
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 5706
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 17:39:59] "[37mPOST /apiTest_GET?debug=1&url_passthrough=http://www.google.com HTTP/1.1[0m" 200 -
+INFO:root:ImmutableMultiDict([('debug', '1'), ('url_passthrough', 'http://www.google.com')])
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 5715
+INFO:root:ImmutableMultiDict([('debug', '1'), ('url_passthrough', 'http://www.google.com')])
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 5697
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 17:40:34] "[37mPOST /apiTest_GET?debug=1&url_passthrough=http://www.google.com HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Justin.Hagerty\\Desktop\\Repos\\flaskTracingTool\\flaskApp.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 200-640-690
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:root:ImmutableMultiDict([('debug', '1'), ('url_passthrough', 'http://www.google.com')])
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 5721
+INFO:root:ImmutableMultiDict([('debug', '1'), ('url_passthrough', 'http://www.google.com')])
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 5714
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 17:42:32] "[37mPOST /apiTest_GET?debug=1&url_passthrough=http://www.google.com HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Justin.Hagerty\\Desktop\\Repos\\flaskTracingTool\\flaskApp.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 200-640-690
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:root:ImmutableMultiDict([('debug', '1'), ('url_passthrough', 'http://www.google.com')])
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 5702
+INFO:root:ImmutableMultiDict([('debug', '1'), ('url_passthrough', 'http://www.google.com')])
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 5686
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 17:49:28] "[37mPOST /apiTest_GET?debug=1&url_passthrough=http://www.google.com HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Justin.Hagerty\\Desktop\\Repos\\flaskTracingTool\\flaskApp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 200-640-690
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\Justin.Hagerty\\Desktop\\Repos\\flaskTracingTool\\flaskApp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 200-640-690
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\Justin.Hagerty\\Desktop\\Repos\\flaskTracingTool\\flaskApp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 200-640-690
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\Justin.Hagerty\\Desktop\\Repos\\flaskTracingTool\\flaskApp.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 200-640-690
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 17:56:09] "[35m[1mPOST /apiTest_GET?debug=1&url_passthrough=http://www.google.com HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Justin.Hagerty\\Desktop\\Repos\\flaskTracingTool\\flaskApp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 200-640-690
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\Justin.Hagerty\\Desktop\\Repos\\flaskTracingTool\\flaskApp.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 200-640-690
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:root:ImmutableMultiDict([('debug', '1'), ('url_passthrough', 'http://www.google.com')])
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 5699
+INFO:root:ImmutableMultiDict([('debug', '1'), ('url_passthrough', 'http://www.google.com')])
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 5731
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 17:58:28] "[37mPOST /apiTest_GET?debug=1&url_passthrough=http://www.google.com HTTP/1.1[0m" 200 -
+INFO:root:ImmutableMultiDict([('debug', '1'), ('url_passthrough', 'http://www.google.com')])
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 5720
+INFO:root:ImmutableMultiDict([('debug', '1'), ('url_passthrough', 'http://www.google.com')])
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 5702
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 18:00:29] "[37mPOST /apiTest_GET?debug=1&url_passthrough=http://www.google.com HTTP/1.1[0m" 200 -
+INFO:root:ImmutableMultiDict([('debug', '1'), ('url_passthrough', 'http://www.google.com')])
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 5731
+INFO:root:ImmutableMultiDict([('debug', '1'), ('url_passthrough', 'http://www.google.com')])
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 5731
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 18:01:48] "[37mPOST /apiTest_GET?debug=1&url_passthrough=http://www.google.com HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Justin.Hagerty\\Desktop\\Repos\\flaskTracingTool\\flaskApp.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 200-640-690
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:root:ImmutableMultiDict([('debug', '1'), ('url_passthrough', 'http://www.google.com')])
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 5690
+INFO:root:ImmutableMultiDict([('debug', '1'), ('url_passthrough', 'http://www.google.com')])
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 5711
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 18:02:32] "[37mPOST /apiTest_GET?debug=1&url_passthrough=http://www.google.com HTTP/1.1[0m" 200 -
+INFO:root:ImmutableMultiDict([('debug', '1'), ('url_passthrough', 'http://www.google.com')])
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 5708
+INFO:root:ImmutableMultiDict([('debug', '1'), ('url_passthrough', 'http://www.google.com')])
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 5716
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 18:04:00] "[37mPOST /apiTest_GET?debug=1&url_passthrough=http://www.google.com HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 200-640-690
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:root:ImmutableMultiDict([('debug', '1'), ('url_passthrough', 'http://www.google.com')])
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 5705
+INFO:root:ImmutableMultiDict([('debug', '1'), ('url_passthrough', 'http://www.google.com')])
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 5694
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 18:05:29] "[37mPOST /apiTest_GET?debug=1&url_passthrough=http://www.google.com HTTP/1.1[0m" 200 -
+INFO:root:ImmutableMultiDict([('debug', '1'), ('url_passthrough', 'http://www.google.com')])
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 5703
+INFO:root:ImmutableMultiDict([('debug', '1'), ('url_passthrough', 'http://www.google.com')])
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 5696
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 18:09:15] "[37mPOST /apiTest_GET?debug=1&url_passthrough=http://www.google.com HTTP/1.1[0m" 200 -
+INFO:root:ImmutableMultiDict([('debug', '1'), ('url_passthrough', 'http://www.google.com')])
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 5680
+INFO:root:ImmutableMultiDict([('debug', '1'), ('url_passthrough', 'http://www.google.com')])
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 5715
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2020 18:09:35] "[37mPOST /apiTest_GET?debug=1&url_passthrough=http://www.google.com HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Justin.Hagerty\\Desktop\\Repos\\flaskTracingTool\\flaskApp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 200-640-690
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\Justin.Hagerty\\Desktop\\Repos\\flaskTracingTool\\flaskApp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 200-640-690
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\Justin.Hagerty\\Desktop\\Repos\\flaskTracingTool\\flaskApp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 200-640-690
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\Justin.Hagerty\\Desktop\\Repos\\flaskTracingTool\\flaskApp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 200-640-690
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\Justin.Hagerty\\Desktop\\Repos\\flaskTracingTool\\flaskApp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 200-640-690
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\Justin.Hagerty\\Desktop\\Repos\\flaskTracingTool\\flaskApp.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 200-640-690
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\Justin.Hagerty\\Desktop\\Repos\\flaskTracingTool\\flaskApp.py', reloading
+INFO:werkzeug: * Restarting with stat
