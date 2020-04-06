@@ -1529,3 +1529,88 @@ INFO:root:ImmutableMultiDict([('debug', 'True'), ('url_passthrough', 'http://bin
 INFO:werkzeug:127.0.0.1 - - [05/Apr/2020 11:48:56] "[35m[1mGET /apiTest_PATH?debug=True&url_passthrough=http://bing.com HTTP/1.1[0m" 500 -
 INFO:werkzeug: * Detected change in 'C:\\Repos\\flaskTracingTool\\flaskApp.py', reloading
 INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 217-629-776
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:root:ImmutableMultiDict([('debug', 'True'), ('url_passthrough', 'http://bing.com')])
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): google.com:80
+DEBUG:urllib3.connectionpool:http://google.com:80 "GET / HTTP/1.1" 301 219
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 5723
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): yahoo.com:80
+DEBUG:urllib3.connectionpool:http://yahoo.com:80 "GET / HTTP/1.1" 301 8
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): yahoo.com:443
+DEBUG:urllib3.connectionpool:https://yahoo.com:443 "GET / HTTP/1.1" 301 8
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://www.yahoo.com:443 "GET / HTTP/1.1" 200 None
+INFO:root:ImmutableMultiDict([('debug', 'True'), ('url_passthrough', 'http://bing.com')])
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): google.com:80
+DEBUG:urllib3.connectionpool:http://google.com:80 "GET / HTTP/1.1" 301 219
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 5689
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): yahoo.com:80
+DEBUG:urllib3.connectionpool:http://yahoo.com:80 "GET / HTTP/1.1" 301 8
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): yahoo.com:443
+DEBUG:urllib3.connectionpool:https://yahoo.com:443 "GET / HTTP/1.1" 301 8
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://www.yahoo.com:443 "GET / HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [05/Apr/2020 11:51:36] "[37mGET /apiTest_PATH?debug=True&url_passthrough=http://bing.com HTTP/1.1[0m" 200 -
+INFO:root:ImmutableMultiDict([('debug', 'True'), ('url_passthrough', 'http://bing.com')])
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.google.com:443
+DEBUG:urllib3.connectionpool:https://www.google.com:443 "GET / HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://www.yahoo.com:443 "GET / HTTP/1.1" 200 None
+INFO:root:ImmutableMultiDict([('debug', 'True'), ('url_passthrough', 'http://bing.com')])
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.google.com:443
+DEBUG:urllib3.connectionpool:https://www.google.com:443 "GET / HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://www.yahoo.com:443 "GET / HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [05/Apr/2020 12:03:00] "[37mGET /apiTest_PATH?debug=True&url_passthrough=http://bing.com HTTP/1.1[0m" 200 -
+INFO:root:ImmutableMultiDict([])
+INFO:root:ImmutableMultiDict([])
+INFO:werkzeug:127.0.0.1 - - [05/Apr/2020 12:08:46] "[37mGET /apiTest_GET HTTP/1.1[0m" 200 -
+INFO:root:ImmutableMultiDict([('url_passthrough', 'http://google.com'), ('debug', 'True')])
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): google.com:80
+DEBUG:urllib3.connectionpool:http://google.com:80 "GET / HTTP/1.1" 301 219
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 5716
+INFO:root:ImmutableMultiDict([('url_passthrough', 'http://google.com'), ('debug', 'True')])
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): google.com:80
+DEBUG:urllib3.connectionpool:http://google.com:80 "GET / HTTP/1.1" 301 219
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 5703
+INFO:werkzeug:127.0.0.1 - - [05/Apr/2020 12:11:48] "[37mGET /apiTest_GET?url_passthrough=http://google.com&debug=True HTTP/1.1[0m" 200 -
+INFO:root:ImmutableMultiDict([('url_passthrough', 'http://google.com'), ('debug', 'True'), ('responseCode', '200')])
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): google.com:80
+DEBUG:urllib3.connectionpool:http://google.com:80 "GET / HTTP/1.1" 301 219
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 5675
+INFO:root:ImmutableMultiDict([('url_passthrough', 'http://google.com'), ('debug', 'True'), ('responseCode', '200')])
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): google.com:80
+DEBUG:urllib3.connectionpool:http://google.com:80 "GET / HTTP/1.1" 301 219
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 5688
+INFO:werkzeug:127.0.0.1 - - [05/Apr/2020 12:13:23] "[37mGET /apiTest_responseCodeCheck?url_passthrough=http://google.com&debug=True&responseCode=200 HTTP/1.1[0m" 200 -
+INFO:root:ImmutableMultiDict([('url_passthrough', 'http://google.com'), ('debug', 'True'), ('responseCode', '200')])
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): google.com:80
+DEBUG:urllib3.connectionpool:http://google.com:80 "GET / HTTP/1.1" 301 219
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 5686
+INFO:root:ImmutableMultiDict([('url_passthrough', 'http://google.com'), ('debug', 'True'), ('responseCode', '200')])
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): google.com:80
+DEBUG:urllib3.connectionpool:http://google.com:80 "GET / HTTP/1.1" 301 219
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 5716
+INFO:werkzeug:127.0.0.1 - - [05/Apr/2020 12:13:29] "[37mGET /apiTest_responseCodeCheck?url_passthrough=http://google.com&debug=True&responseCode=200 HTTP/1.1[0m" 200 -
+INFO:root:ImmutableMultiDict([('url_passthrough', 'http://google.com'), ('debug', 'True'), ('responseCode', '404')])
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): google.com:80
+DEBUG:urllib3.connectionpool:http://google.com:80 "GET / HTTP/1.1" 301 219
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 5699
+INFO:root:ImmutableMultiDict([('url_passthrough', 'http://google.com'), ('debug', 'True'), ('responseCode', '404')])
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): google.com:80
+DEBUG:urllib3.connectionpool:http://google.com:80 "GET / HTTP/1.1" 301 219
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): www.google.com:80
+DEBUG:urllib3.connectionpool:http://www.google.com:80 "GET / HTTP/1.1" 200 5703
+INFO:werkzeug:127.0.0.1 - - [05/Apr/2020 12:13:45] "[33mGET /apiTest_responseCodeCheck?url_passthrough=http://google.com&debug=True&responseCode=404 HTTP/1.1[0m" 404 -
