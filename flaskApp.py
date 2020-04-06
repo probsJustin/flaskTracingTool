@@ -79,6 +79,9 @@ def processRequest(requestFuncVar):
     logRequest(requestFuncVar)
     return newResponse
 
+def getCurrentAddress(headers):
+    return headers.args.get('X-dynaSupLabPath-info')
+
 
 def addRequestHeaderInfo(headers, requestIp, messageHeader, contentLength, requestURI):
     newHeader = dict()
@@ -92,18 +95,26 @@ def addRequestHeaderInfo(headers, requestIp, messageHeader, contentLength, reque
     newHeader['X-dynaSupLabRes-info'] = newHeader['X-dynaSupLabRes-info'] + "ts=" + datetime.now() + ",client-ip=" + requestIp + ",message=" + messageHeader + ",content-length=" + contentLength + ",requestURI=" + requestURI + "$"
     return newHeader
 
-def getNextHeaderPath(headers):
+def getNewHeaders(headers):
     newHeader = dict()
-    newHeader = headers
-    splitLabPath = str(newHeader['X-dynaSupLabPath-info']).split(',')
-    newHeader['X-dynaSupLabPosition-info'] += 1
-    return splitLabPath[newHeader['X-dynaSupLabPosition-info']]
-
-def incrementSubLabPosition(headers):
-    newHeader = dict()
-    newHeader = headers
-    newHeader['X-dynaSupLabPosition'] += 1
+    newHeader['X-dynaSupLabPosition-info'] = str(headers['X-dynaSupLabPosition-info'])
+    newHeader['X-dynaSupLabPath-info'] = str(headers['X-dynaSupLabPath-info'])
+    if(newHeader['X-dynaSupLabPath-info'] == 'False'):
+        newHeader['X-dynaSupLabPosition-info'] = str(int(newHeader['X-dynaSupLabPosition-info']) + 1)
+    else:
+        newHeader['X-dynaSupLabPosition-info']
     return newHeader
+
+
+def getNewPath(headers):
+    newHeader = dict()
+    newHeader['X-dynaSupLabPosition-info'] = str(headers['X-dynaSupLabPosition-info'])
+    newHeader['X-dynaSupLabPath-info'] = str(headers['X-dynaSupLabPath-info'])
+    splitNewHeader = str(newHeader['X-dynaSupLabPath-info']).split(',')
+    if(newHeader['X-dynaSupLabPosition-info'] == 'False'):
+        return splitNewHeader
+    else:
+        return splitNewHeader[int(newHeader['X-dynaSupLabPosition-info'])]
 
 @autodynatrace.trace
 @app.route("/apiTest_GET", methods=['GET', 'POST', 'DELETE', 'PUT'])
@@ -199,9 +210,14 @@ def apiTest_PATH():
     processObject = processRequest(request)
     if(processObject['unit']):
         responseObject = Response(processObject['data'])
-        if(processObject['X-dynaSupLabPath-info']):
-            response = requests.get(getNextHeaderPath(request.headers), headers=getNextHeaderPath(request.headers))
+        print(getCurrentAddress(request))
+        if(str(request.headers['X-dynaSupLabPosition-info']) == 'False'):
+            for x in getNewPath(request.headers):
+                response = requests.get(str(x))
+        else:
+            response = requests.get(getNewPath(request.headers), headers=getNewHeaders(request.headers))
     return responseObject
+
 
 
 @app.route("/apiTest_responseCodeCheck", methods=['GET', 'POST', 'DELETE', 'PUT'])
