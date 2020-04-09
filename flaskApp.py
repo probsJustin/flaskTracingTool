@@ -240,12 +240,7 @@ def apiTest_responseCodeCheck():
         else:
             abort(500)
             print("No Response Specified")
-
     return responseObject
-
-
-
-
 
 
 if __name__ == "__main__":
