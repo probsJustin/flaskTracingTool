@@ -12,7 +12,7 @@ from datetime import datetime
 from oneagent.common import DYNATRACE_HTTP_HEADER_NAME
 logging.basicConfig(filename='./flaskData',level=logging.DEBUG)
 
-app = Flask("Tracing Application Debug Endpoint")
+app = Flask("Debug Header Repeating Application")
 
 init_result = oneagent.initialize()
 print('OneAgent SDK initialization result' + repr(init_result))
@@ -31,9 +31,6 @@ def logHeader():
     for x in request.headers:
         print(x)
     return returnObject
-
-
-
 
 if __name__ == "__main__":
     app.run(debug=True)
