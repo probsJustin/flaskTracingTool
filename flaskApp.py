@@ -10,7 +10,7 @@ from datetime import datetime
 # Tracing Application Debug Endpoint For Dynatrace Testing
 
 from oneagent.common import DYNATRACE_HTTP_HEADER_NAME
-logging.basicConfig(filename='./flaskData',level=logging.DEBUG)
+logging.basicConfig(filename='./flaskData', level=logging.DEBUG)
 
 app = Flask("Tracing Application Debug Endpoint")
 
@@ -114,8 +114,36 @@ def requestFactory(funcRequest):
     return returnReturnBody()
 
 @autodynatrace.trace
-@app.route("/apiTest_GET", methods=['GET', 'POST', 'DELETE', 'PUT'])
+@app.route("/apiTest_GET", methods=['GET'])
 def apiTest_GET():
+    return requestFactory(request)
+
+@app.route("/apiTest_POST", methods=['POST'])
+def apiTest_POST():
+    return requestFactory(request)
+
+@app.route("/apiTest_PUT", methods=['PUT'])
+def apiTest_PUT():
+    return requestFactory(request)
+
+@app.route("/apiTest_DELTE", methods=['DELETE'])
+def apiTest_DELETE():
+    return requestFactory(request)
+
+@app.route("/apiTest_FAILURE", methods=['GET', 'POST', 'PUT', 'DELETE'])
+def apiTest_FAILURE():
+    return requestFactory(request)
+
+@app.route("/apiTest_SUCCESS", methods=['GET', 'POST', 'PUT', 'DELETE'])
+def apiTest_SUCCESS():
+    return requestFactory(request)
+
+@app.route("/apiTest_Thread", methods=['GET', 'POST', 'PUT', 'DELETE'])
+def apiTest_Thread():
+    return requestFactory(request)
+
+@app.route("/apiTest_Fork", methods=['GET', 'POST', 'PUT', 'DELETE'])
+def apiTest_Fork():
     return requestFactory(request)
 
 if __name__ == "__main__":

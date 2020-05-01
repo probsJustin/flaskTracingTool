@@ -2244,3 +2244,10 @@ INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
 INFO:werkzeug: * Debugger PIN: 205-778-377
 INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 205-778-377
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [01/May/2020 13:20:29] "[37mGET /apiTest_GET?url_passthrough=test&debug=1&html=true HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Repos\\flaskTracingTool\\flaskApp.py', reloading
+INFO:werkzeug: * Restarting with stat
