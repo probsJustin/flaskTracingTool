@@ -30,9 +30,19 @@ SLPATH = "X-dynaSupLabPath-info"
 SLPOS = "X-dynaSubLabPosition-info"
 SLURL = "url_passthrough"
 DYNASL = "Dynatrace Support Lab"
+CT = "text"
+RESPONSECODE = ""
 
 responseHeaders = dict()
 returnBody = dict()
+
+def setResponseCode(funcString):
+    global RESPONSECODE
+    RESPONSECODE = funcString
+
+def setCT(funcString):
+    global CT
+    CT = funcString
 
 def line(funcString = ""):
     return funcString + '\n'
@@ -89,6 +99,7 @@ def checkForArgs(funcRequest, funcIndex):
         return returnObject
 
 def requestFactory(funcRequest):
+    global returnBody
     clearReturnBody()
     newRequest = funcRequest
     if(isDebug(request)):
@@ -107,8 +118,19 @@ def requestFactory(funcRequest):
         addBody(line() + line(DYNASL + " Query Parameters Found:"))
         if(checkForArgs(request, SLURL)["test"]):
             addBody(line(SLURL + " : " + checkForArgs(request, SLURL)["unit"]))
+            try:
+                requests.get(checkForArgs(request, SLURL)["TEST"])
+            except Exception as error:
+                addBody(line("Url_Passthrough Failed With: " + str(error)))
+                addBody(line("Likely you put in the url wrong."))
         if(checkForArgs(request, "html")["test"]):
-            addBody(line("HTML" + " : " + checkForArgs(request, "html")["unit"]))
+            addBody(line("HTML : " + checkForArgs(request, "html")["unit"]))
+            setCT("text/html")
+            returnBody = "<!DOCTYPE html>" + returnBody
+        if(checkForArgs(request, "statusCode")["test"]):
+            addBody(line("statusCode : " + checkForArgs(request, "statusCode")["unit"]))
+            setResponseCode(checkForArgs(request, "statusCode")["unit"])
+
     else:
         addBody("Debug is False")
     return returnReturnBody()
