@@ -3,6 +3,7 @@ import autodynatrace
 import requests
 import logging
 import oneagent
+import time
 
 from datetime import datetime
 
@@ -66,6 +67,7 @@ def appendToResHeaders(funcStringVar, funcIndexVar):
     global responseHeaders
     try:
         responseHeaders[funcIndexVar] += funcStringVar
+        return funcStringVar
     except:
         responseHeaders[funcIndexVar] = funcStringVar
 
@@ -98,6 +100,25 @@ def checkForArgs(funcRequest, funcIndex):
         returnObject["test"] = False
         return returnObject
 
+def pp_stamp(funcRequest):
+    returnObject = ""
+    returnObject += "ts=" + str(time.time()) + ','
+    if(funcRequest.headers.get("content_length")):
+        returnObject += "content-length=" + funcRequest.headers["content-length"] + ','
+    else:
+        returnObject += "content-length=N/A,"
+    returnObject += "client-IP=" + funcRequest.host + ','
+    returnObject += "message=This is the python reproducer,"
+    returnObject += "requestURI=" + funcRequest.url + '$'
+    return returnObject
+
+
+def responseBuilder(funcHeaders, funcBody):
+    responseInstance = app.make_response(funcBody)
+    for x in funcHeaders.keys():
+        responseInstance.headers[x] = funcHeaders[x]
+    return responseInstance
+
 def requestFactory(funcRequest):
     global returnBody
     clearReturnBody()
@@ -111,15 +132,26 @@ def requestFactory(funcRequest):
         if(checkForHeader(request, SLPATH)["test"] and checkForHeader(request, SLPOS)["test"]):
             addBody(line(SLPATH + " : " + checkForHeader(request, SLPATH)["unit"]))
             addBody(line(SLPOS + " : " + checkForHeader(request, SLPOS)["unit"]))
+            requestInstanceHeader = dict()
+            requestInstanceHeader["SLPOS"] = str(int(checkForHeader(request,SLPOS)["unit"]) + 1)
+            requestInstanceHeader["SLPATH"] = checkForHeader(request, SLPATH)["unit"]
+            requests.get(checkForHeader(request, SLPATH)["unit"].split(',')[str(int(checkForHeader(request, SLPOS)["unit"]) + 1)], headers=requestInstanceHeader)
         if(checkForHeader(request, SLREQ)["test"]):
             addBody(line(SLREQ + " : " + checkForHeader(request, SLREQ)["unit"]))
+            appendToResHeaders(pp_stamp(request), SLREQ)
         if(checkForHeader(request, SLRES)["test"]):
             addBody(line(SLRES + " : " + checkForHeader(request, SLRES)["unit"]))
+            appendToResHeaders(pp_stamp(request), SLRES)
         addBody(line() + line(DYNASL + " Query Parameters Found:"))
         if(checkForArgs(request, SLURL)["test"]):
             addBody(line(SLURL + " : " + checkForArgs(request, SLURL)["unit"]))
             try:
-                requests.get(checkForArgs(request, SLURL)["TEST"])
+                passThroughResponse = requests.get(checkForArgs(request, SLURL)["unit"])
+                if(passThroughResponse.headers.get(SLRES)):
+                    appendToResHeaders(passThroughResponse.headers[SLRES])
+                if(passThroughResponse.headers.get(SLREQ)):
+                    appendToResHeaders(passThroughResponse.headers[SLREQ])
+                addBody(line("Response Code For Pass Through: " + str(passThroughResponse.status_code)))
             except Exception as error:
                 addBody(line("Url_Passthrough Failed With: " + str(error)))
                 addBody(line("Likely you put in the url wrong."))
@@ -138,7 +170,8 @@ def requestFactory(funcRequest):
 @autodynatrace.trace
 @app.route("/apiTest_GET", methods=['GET'])
 def apiTest_GET():
-    return requestFactory(request)
+    global responseHeaders
+    return responseBuilder(responseHeaders, requestFactory(request))
 
 @app.route("/apiTest_POST", methods=['POST'])
 def apiTest_POST():
